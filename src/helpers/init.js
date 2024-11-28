@@ -11,6 +11,7 @@ proxyIP = proxyIPs ? proxyIPs[Math.floor(Math.random() * proxyIPs.length)] : def
 trojanPassword = env.TROJAN_PASS || 'bpb-trojan';
 defaultHttpPorts = ['80', '8080', '2052', '2082', '2086', '2095', '8880'];
 defaultHttpsPorts = ['443', '8443', '2053', '2083', '2087', '2096'];
+    panelVersion = '2.7.5';
     panelVersion = '2.7.6';
 hostName = request.headers.get('Host');
 const url = new URL(request.url);
